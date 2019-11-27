@@ -1,0 +1,16 @@
+body {
+  background-image:url(CPC.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+h1 {
+  color: white;
+  margin-left: 20px;
+}
+
+p{
+    color: aliceblue;
+    margin-right: auto
+}
