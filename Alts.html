@@ -6,11 +6,9 @@
     <script> 
      let Emails = ["lukeybrooks@aol.co.uk:lisaluke22",'depoorterflorian@hotmail.com :zandvliet123", "tantakosu1992@yahoo.co.jp:ikatako0000"]
     "depoorterflorian@hotmail.com :zandvliet123"];
-         let EmailToUse = EmailToUse[Math.floor(Math.random()*Emails.Length)]
-    function AltGen()
-        {
-         alert(EmailToUse)
-        }
+     let EmailToUse = EmailToUse[Math.floor(Math.random()*Emails.Length)]
+   
+     alert("One email is " + EmailToUse)
                                                         
  
     </script>
@@ -36,8 +34,7 @@
   </div>
 </div>
     <form name="form1">
-        <input name="result" tpye="text" readonly="readonly">
-        <button type="button" onclick="document.form1.result.value=AltGen()">Generate</button>
+               <button type="button" onclick="document.form1.alert.value  = Generator()">Generate</button>
     </form>
 </body>
 </html>
