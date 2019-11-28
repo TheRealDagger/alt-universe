@@ -9,8 +9,8 @@
         
     funtion AltGen ()
         {
-         let EmailToUse = EmailToUse[Math.floor(Math.random()*Emails.Length)]
-         alert(Emails)
+         let x = EmailToUse[Math.floor(Math.random()*Emails.Length)]
+         alert(x)
         }
                                                         
  
@@ -37,7 +37,7 @@
   </div>
 </div>
     <form name="form1">
-        <button type="button" onclick=AltGen()>Generate</button>
+        <button type="button" onclick="AltGen">Generate</button>
     </form>
 </body>
 </html>
