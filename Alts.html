@@ -3,14 +3,15 @@
 <head>
 <link rel="stylesheet" type="text/css" href="styles.css">
     
-    <script> 
-     let Emails = ["lukeybrooks@aol.co.uk:lisaluke22",'depoorterflorian@hotmail.com :zandvliet123", "tantakosu1992@yahoo.co.jp:ikatako0000"]
-    "depoorterflorian@hotmail.com :zandvliet123"];
-     let EmailToUse = EmailToUse[Math.floor(Math.random()*Emails.Length)]
-   
-     alert("One email is " + EmailToUse)
-                                                        
- 
+    <script>
+        let Emails = ["lukeybrooks@aol.co.uk:lisaluke22",'depoorterflorian@hotmail.com :zandvliet123", "tantakosu1992@yahoo.co.jp:ikatako0000" , "depoorterflorian@hotmail.com:zandvliet123'];
+        let EmailsToUse = Emails[Math.floor(Math.random)*Emails.length];
+     function GetAlts()
+     {
+      alert(EmailsToUse)
+     }
+
+
     </script>
     
 <title>Alt Universe</title>
@@ -34,7 +35,7 @@
   </div>
 </div>
     <form name="form1">
-               <button type="button" onclick="document.form1.alert.value  = Generator()">Generate</button>
+               <button type="button" onclick="document.form1.alert.value  = GetAlts()">Generate</button>
     </form>
 </body>
 </html>
