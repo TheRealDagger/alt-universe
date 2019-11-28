@@ -4,10 +4,16 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
     
     <script> 
-     let Emails = ["lukeybrooks@aol.co.uk:lisaluke22",
-"depoorterflorian@hotmail.com :zandvliet123",
-"tantakosu1992@yahoo.co.jp:ikatako0000"]
-     function"Alt Gen"{} 
+     let Emails = ["lukeybrooks@aol.co.uk:lisaluke22",'depoorterflorian@hotmail.com :zandvliet123", "tantakosu1992@yahoo.co.jp:ikatako0000"]
+    "depoorterflorian@hotmail.com :zandvliet123"];
+        
+    funtion AltGen ()
+        {
+         let EmailToUse = EmailToUse[Math.floor(Math.random()*Emails.Length)]
+         alert(Emails)
+        }
+                                                        
+ 
     </script>
     
 <title>Alt Universe</title>
@@ -30,5 +36,8 @@
     </div>
   </div>
 </div>
+    <form name="form1">
+        <button type="button" onclick=AltGen()>Generate</button>
+    </form>
 </body>
 </html>
